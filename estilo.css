@@ -1,4 +1,4 @@
-@import url("normalize.css");
+/*@import url("normalize.css"*/;
 
 *{
 	margin: 0;
@@ -48,4 +48,12 @@ header .contenedor-textos-header .titulo-header{
 	font-size: 80px;
 	color:#fff;
 	margin-bottom: 5px;
+}
+
+header .contenedor-textos-header .linea{
+	width: 600px;
+	margin: auto;
+	height: 3px;
+	background:  #15a4fa;
+	margin-bottom: 20px; 
 }
