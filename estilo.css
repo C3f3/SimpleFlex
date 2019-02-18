@@ -17,10 +17,10 @@ body{
 	overflow: hidden;
 }
 header{
-	height: 600px;
-	background-image: url(img/portada.png);
+	height: 500px;
+	background-image: url(img/portada1.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 }
 header .menu{
 	display: flex;
@@ -112,7 +112,8 @@ main .iconos{
 }
 main .portafolio{
 	background:#f0f3f5;
-	padding: 30px 0;
+    width: 100%;
+	padding: 15px 0;
 
 }
 main .contenedor-textos-portafolio{
@@ -128,22 +129,26 @@ main .contenedor-textos-portafolio .titulo-portafolio{
 main .contenedor-textos-portafolio .parrafo-portafolio{
 	font-weight: normal;
 	color: #999999;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 main .portafolio .contenedor-portafolio{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+
+    
 }
 main .portafolio .contenedor-portafolio img{
 	width: 30%;
-	margin: auto;
-	margin-bottom: 10px;
+    
+    margin: auto;
+    margin-bottom: 10px;
+    
 	border-radius: 5px;
-
 }
 main .portafolio .contenedor-portafolio img:hover{
 	opacity: .6;
+    cursor: pointer;
 }
 footer{
 	width: 100%;
@@ -224,7 +229,7 @@ footer .formulario .boton-enviar:hover{
  		justify-content: center;
  		flex-wrap: wrap;
  	}
- 	header .contenedor-textps-header{
+ 	header .contenedor-textos-header{
  		margin: 100px 0;
  	}
  }
