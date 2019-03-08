@@ -18,7 +18,7 @@ body{
 }
 header{
 	height: 500px;
-	background-image: url(img/portada1.jpg);
+	background-image: url(../img/portada1.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
 }
@@ -85,7 +85,7 @@ main .acerca-de{
 main .acerca-de .contenedor-texto-acerca .titulo-acerca{
 	font-size: 24px;
 	font-weight: 900;
-	/*color: #999999;*/
+	color: #999999;
 	margin-bottom: 20px;
 }
 main .acerca-de .contenedor-texto-acerca .parrafo-acerca{
@@ -154,7 +154,7 @@ footer{
 	width: 100%;
 	height: 600px;
 	padding: 60px 0;
-	background-image: url(img/footer.png);
+	background-image: url(../img/footer.png);
 }
 footer .footer-textos{
 	text-align: center;
